@@ -4,8 +4,7 @@
     "description": "This is the latest version of Maqueen Plus, a programming robot for STEAM education.",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+        "core": "*"
     },
     "files": [
         "README.md",
