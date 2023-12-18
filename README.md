@@ -103,5 +103,5 @@ Copyright (c) 2020, microbit/micropython Chinese community
 
 
 ```package
-maqueenPlusV2=github:DFRobot/pxt-DFRobot_MaqueenPlus_v20
+maqueenPlusV2=github:djacquel/pxt-DFRobot_MaqueenPlus_v20
 ```
