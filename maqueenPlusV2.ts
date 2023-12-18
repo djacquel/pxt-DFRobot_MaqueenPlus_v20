@@ -425,7 +425,7 @@ namespace maqueenPlusV2 {
             neopixel_buf[i * 3 + 1] = Math.round(r)
             neopixel_buf[i * 3 + 2] = Math.round(b)
         }
-        ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
+        // ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
 
     }
 
@@ -447,7 +447,7 @@ namespace maqueenPlusV2 {
             if ((i % 3) == 2)
                 neopixel_buf[i] = Math.round(b)
         }
-        ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
+        // ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
     }
 
     /**
@@ -534,7 +534,7 @@ namespace maqueenPlusV2 {
             }
             writeBuff(3, hsl(endHue, saturation, luminance));
         }
-        ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
+        // ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
     }
 
     export enum HueInterpolationDirection {
